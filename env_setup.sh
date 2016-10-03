@@ -65,8 +65,8 @@ export KCONFIG_NOTIMESTAMP=true
 export ARCH=arm64;
 export SUB_ARCH=arm64;
 
-# G920T
-if [ "$TARGET" = "G920T" ] ; then
+# G920W8
+if [ "$TARGET" = "G920W8" ] ; then
 	export KERNEL_CONFIG="custom_defconfig";
 fi;
 
@@ -81,7 +81,7 @@ export TMPFILE=`mktemp -t`;
 
 
 # system compiler
-export CROSS_COMPILE=/home/sick/aarch64-linux-gnu-5.3/bin/aarch64-
+export CROSS_COMPILE=/home/derek/aarch64-linux-gnu-5.3/bin/aarch64-
 
 
 # CPU Core
